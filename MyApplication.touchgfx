@@ -5,17 +5,6 @@
         "Name": "Screen1",
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box3",
-            "Width": 800,
-            "Height": 480,
-            "Color": {
-              "Red": 247,
-              "Green": 141,
-              "Blue": 141
-            }
-          },
-          {
             "Type": "CustomContainerInstance",
             "Name": "a_z_Custom_Container1",
             "X": 160,
@@ -43,9 +32,9 @@
             "Height": 272,
             "LockPosition": true,
             "Color": {
-              "Red": 151,
-              "Green": 186,
-              "Blue": 240
+              "Red": 30,
+              "Green": 30,
+              "Blue": 47
             }
           },
           {
@@ -58,9 +47,9 @@
             "Visible": false,
             "LockPosition": true,
             "Color": {
-              "Red": 245,
-              "Green": 83,
-              "Blue": 83
+              "Red": 42,
+              "Green": 42,
+              "Blue": 58
             }
           },
           {
@@ -1654,12 +1643,17 @@
           {
             "Type": "BoxWithBorder",
             "Name": "boxWithBorder1",
-            "X": 13,
+            "X": 19,
             "Y": 40,
-            "Width": 455,
-            "Height": 39,
+            "Width": 443,
+            "Height": 38,
             "LockPosition": true,
             "Color": {
+              "Red": 46,
+              "Green": 46,
+              "Blue": 62
+            },
+            "BorderColor": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
@@ -1669,9 +1663,9 @@
           {
             "Type": "FlexButton",
             "Name": "inputbutton",
-            "X": 13,
-            "Y": 40,
-            "Width": 455,
+            "X": 19,
+            "Y": 39,
+            "Width": 443,
             "Height": 39,
             "LockPosition": true,
             "Alpha": 0,
@@ -1681,7 +1675,7 @@
             "ButtonStyles": [
               {
                 "Type": "BoxWithBorderButtonStyle",
-                "Width": 455,
+                "Width": 443,
                 "Height": 39,
                 "LockToFlexButtonSize": true,
                 "BorderSize": 5,
@@ -1708,12 +1702,17 @@
           {
             "Type": "TextArea",
             "Name": "textArea1",
-            "X": 16,
-            "Y": 44,
-            "Width": 448,
-            "Height": 32,
+            "X": 23,
+            "Y": 43,
+            "Width": 432,
+            "Height": 34,
             "TextId": "__SingleUse_HSZB",
             "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
             "Wildcard1": {
               "UseBuffer": true,
               "BufferSize": 30

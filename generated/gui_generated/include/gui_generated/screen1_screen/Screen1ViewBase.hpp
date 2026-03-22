@@ -26,7 +26,6 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Box box3;
     a_z_Custom_Container a_z_Custom_Container1;
 
 private:

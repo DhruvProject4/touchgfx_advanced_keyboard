@@ -10,10 +10,6 @@ Screen1ViewBase::Screen1ViewBase()
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    box3.setPosition(0, 0, 800, 480);
-    box3.setColor(touchgfx::Color::getColorFromRGB(247, 141, 141));
-    add(box3);
-
     a_z_Custom_Container1.setXY(160, 208);
     add(a_z_Custom_Container1);
 }

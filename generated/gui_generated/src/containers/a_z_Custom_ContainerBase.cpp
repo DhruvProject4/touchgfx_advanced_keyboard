@@ -13,11 +13,11 @@ a_z_Custom_ContainerBase::a_z_Custom_ContainerBase() :
     setWidth(480);
     setHeight(272);
     box2.setPosition(0, 0, 480, 272);
-    box2.setColor(touchgfx::Color::getColorFromRGB(151, 186, 240));
+    box2.setColor(touchgfx::Color::getColorFromRGB(30, 30, 47));
     add(box2);
 
     box1.setPosition(19, 97, 443, 175);
-    box1.setColor(touchgfx::Color::getColorFromRGB(245, 83, 83));
+    box1.setColor(touchgfx::Color::getColorFromRGB(42, 42, 58));
     box1.setVisible(false);
     add(box1);
 
@@ -719,22 +719,22 @@ a_z_Custom_ContainerBase::a_z_Custom_ContainerBase() :
 
     add(num_key_button_container);
 
-    boxWithBorder1.setPosition(13, 40, 455, 39);
-    boxWithBorder1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    boxWithBorder1.setBorderColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    boxWithBorder1.setPosition(19, 40, 443, 38);
+    boxWithBorder1.setColor(touchgfx::Color::getColorFromRGB(46, 46, 62));
+    boxWithBorder1.setBorderColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     boxWithBorder1.setBorderSize(2);
     add(boxWithBorder1);
 
-    inputbutton.setBoxWithBorderPosition(0, 0, 455, 39);
+    inputbutton.setBoxWithBorderPosition(0, 0, 443, 39);
     inputbutton.setBorderSize(5);
     inputbutton.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     inputbutton.setAlpha(0);
     inputbutton.setAction(flexButtonCallback);
-    inputbutton.setPosition(13, 40, 455, 39);
+    inputbutton.setPosition(19, 39, 443, 39);
     add(inputbutton);
 
-    textArea1.setPosition(16, 44, 448, 32);
-    textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea1.setPosition(23, 43, 432, 34);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     textArea1.setLinespacing(0);
     textArea1Buffer[0] = 0;
     textArea1.setWildcard(textArea1Buffer);
