@@ -733,7 +733,7 @@ a_z_Custom_ContainerBase::a_z_Custom_ContainerBase() :
     inputbutton.setPosition(13, 40, 455, 39);
     add(inputbutton);
 
-    textArea1.setPosition(15, 44, 453, 32);
+    textArea1.setPosition(16, 44, 448, 32);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
     textArea1Buffer[0] = 0;

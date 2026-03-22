@@ -1708,11 +1708,10 @@
           {
             "Type": "TextArea",
             "Name": "textArea1",
-            "X": 15,
+            "X": 16,
             "Y": 44,
-            "Width": 453,
+            "Width": 448,
             "Height": 32,
-            "LockPosition": true,
             "TextId": "__SingleUse_HSZB",
             "TextRotation": "0",
             "Wildcard1": {
