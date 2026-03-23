@@ -1,5 +1,3 @@
-# TouchGFX Advanced Keyboard UI
-
 ## Overview
 
 This project is a fully functional custom keyboard built using TouchGFX for industrial applications.
@@ -16,7 +14,6 @@ It is designed as a modular and reusable UI component and tested on real STM32 h
 * Calibration data input
 * Modular design using custom containers
 
----
 
 ## Technologies Used
 
@@ -24,36 +21,30 @@ It is designed as a modular and reusable UI component and tested on real STM32 h
 * STM32
 * C++
 
----
 
 ## Hardware
 
 * Board: STM32H750B-DK
 * IDE: STM32CubeIDE
 
----
 
 ## Use Case
 
 Designed for real-time industrial systems requiring reliable and flexible user input.
 
----
-
 ## Screenshots
 
 ### Lowercase Keyboard
 
-<img width="600" height="342" src="https://github.com/user-attachments/assets/8d9ff3c7-610d-4cc1-9e19-bbf6bb1f6b85" />
+<img width="602" height="340" alt="image" src="https://github.com/user-attachments/assets/fb288618-a224-47fc-a9ea-bc424ca94af6" />
 
 ### Uppercase Keyboard
 
-<img width="597" height="338" src="https://github.com/user-attachments/assets/fe920e8e-af01-4b97-8355-267d516bafc4" />
+<img width="600" height="342" alt="image" src="https://github.com/user-attachments/assets/03e1a9c9-6fa7-4165-b86e-dc2ddf9338bc" /> 
 
 ### Numeric Keypad
 
-<img width="600" height="337" src="https://github.com/user-attachments/assets/135f5e49-652b-43a0-8722-5deb683a637e" />
-
----
+<img width="600" height="342" alt="image" src="https://github.com/user-attachments/assets/8d07040f-28c6-4227-8b86-4d5b4969c268" />
 
 ## How to Run
 
